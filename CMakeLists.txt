@@ -8,7 +8,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   # Messages:
@@ -29,14 +30,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/SingleRangeBearingObservation.msg
   # Services:
   srv/GetCMGraph.srv
+  DEPENDENCIES
+    std_msgs
+    geometry_msgs
+  ADD_LINTER_TESTS
   )
 
-ament_export_dependencies(
-  rosidl_default_runtime
-  std_msgs
-  geometry_msgs
-  sensor_msgs
-  )
+ament_export_dependencies(rosidl_default_runtime)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
