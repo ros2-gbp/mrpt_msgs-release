@@ -2,6 +2,11 @@
 Changelog for package mrpt_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.4 (2022-04-02)
+------------------
+* Add missing dependency
+* Contributors: Jose Luis Blanco-Claraco
+
 0.3.3 (2022-03-30)
 ------------------
 * Add missing find_packages() and other errors, fixing builds in ROS build farm.
