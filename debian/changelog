@@ -1,0 +1,37 @@
+ros-humble-mrpt-msgs (0.3.4-2jammy) jammy; urgency=high
+
+  * Add missing dependency
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sat, 02 Apr 2022 07:00:00 -0000
+
+ros-humble-mrpt-msgs (0.3.3-2jammy) jammy; urgency=high
+
+  * Add missing find_packages() and other errors, fixing builds in ROS build farm.
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Wed, 30 Mar 2022 07:00:00 -0000
+
+ros-humble-mrpt-msgs (0.3.2-2jammy) jammy; urgency=high
+
+  * Fix missing ament_export_dependencies()
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Wed, 30 Mar 2022 07:00:00 -0000
+
+ros-humble-mrpt-msgs (0.3.1-2jammy) jammy; urgency=high
+
+  * fix ros2 deps
+  * Contributors: Jose Luis Blanco Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sat, 05 Mar 2022 08:00:00 -0000
+
+ros-humble-mrpt-msgs (0.3.0-2jammy) jammy; urgency=high
+
+  * Add contributing and license
+  * Ported to ros2
+  * Contributors: Jose Luis Blanco Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sat, 05 Mar 2022 08:00:00 -0000
+
+
