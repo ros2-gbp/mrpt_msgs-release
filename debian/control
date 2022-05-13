@@ -1,0 +1,12 @@
+Source: ros-foxy-mrpt-msgs
+Section: misc
+Priority: optional
+Maintainer: Jose-Luis Blanco-Claraco <jlblanco@ual.es>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-geometry-msgs, ros-foxy-ros-environment, ros-foxy-rosidl-default-generators, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-ros-workspace, ros-foxy-rosidl-typesupport-fastrtps-c, ros-foxy-rosidl-typesupport-fastrtps-cpp, ros-foxy-rosidl-typesupport-connext-c, ros-foxy-rosidl-typesupport-connext-cpp
+Homepage: https://wiki.ros.org/mrpt_msgs
+Standards-Version: 3.9.2
+
+Package: ros-foxy-mrpt-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-geometry-msgs, ros-foxy-rosidl-default-runtime, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-ros-workspace
+Description: ROS messages for MRPT classes and objects
