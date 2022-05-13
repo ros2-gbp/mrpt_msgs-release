@@ -2,7 +2,7 @@
 # Message also contains the following optional fields:
 # - str_ID: string identifier of the robot agent that initially registered this node in
 # its graph
-# - nodeID_loc: ID of the current node in the graph it was initially registered in.
+# - node_id_loc: ID of the current node in the graph it was initially registered in.
 #
 # note: Additional fields correspond to the fields of the
 # mrpt::graphs::detail::TMRSlamNodeAnnotations struct
