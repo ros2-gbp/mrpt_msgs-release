@@ -1,3 +1,26 @@
+## mrpt_msgs (rolling) - 0.4.2-1
+
+The packages in the `mrpt_msgs` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --ros-distro rolling mrpt_msgs` on `Wed, 18 May 2022 14:03:43 -0000`
+
+The `mrpt_msgs` package was released.
+
+Version of package(s) in repository `mrpt_msgs`:
+
+- upstream repository: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
+- release repository: https://github.com/ros2-gbp/mrpt_msgs-release.git
+- rosdistro version: `0.4.0-1`
+- old version: `0.4.0-1`
+- new version: `0.4.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.1`
+- catkin_pkg version: `0.5.0`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## mrpt_msgs (foxy) - 0.4.2-1
 
 The packages in the `mrpt_msgs` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --ros-distro foxy mrpt_msgs` on `Wed, 18 May 2022 13:58:20 -0000`
