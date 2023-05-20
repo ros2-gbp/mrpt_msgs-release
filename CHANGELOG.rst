@@ -2,6 +2,11 @@
 Changelog for package mrpt_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.5 (2023-05-20)
+------------------
+* Add Waypoint messages
+* Contributors: Jose Luis Blanco-Claraco
+
 0.4.4 (2022-06-12)
 ------------------
 * Correct build_type in package.xml (solves installing unexpected files, as reported [here](https://github.com/ros/rosdistro/pull/33532))
