@@ -2,6 +2,13 @@
 Changelog for package mrpt_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.6 (2023-05-27)
+------------------
+* fix endline space (fixes uncrustify test error)
+* Waypoint.msg: add ignore_heading field
+* Add header to WaypointSequence.msg
+* Contributors: Jose Luis Blanco-Claraco
+
 0.4.5 (2023-05-20)
 ------------------
 * Add Waypoint messages
