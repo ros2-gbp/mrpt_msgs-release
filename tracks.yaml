@@ -128,5 +128,4 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
-    version: 0.4.7
-    version_saved: :{auto}
+    version: :{auto}
