@@ -1,0 +1,244 @@
+ros-rolling-mrpt-msgs (0.4.7-2noble) noble; urgency=high
+
+  * Add new GenericObject msg type
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Tue, 22 Aug 2023 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.4.6-2noble) noble; urgency=high
+
+  * fix endline space (fixes uncrustify test error)
+  * Waypoint.msg: add ignore_heading field
+  * Add header to WaypointSequence.msg
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sat, 27 May 2023 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.4.5-2noble) noble; urgency=high
+
+  * Add Waypoint messages
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sat, 20 May 2023 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.4.4-2noble) noble; urgency=high
+
+  * Correct build_type in package.xml (solves installing unexpected files, as reported [here](https://github.com/ros/rosdistro/pull/33532))
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sun, 12 Jun 2022 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.4.3-2noble) noble; urgency=high
+
+  * Fix lint errors
+  * Add contributing.md file
+  * Rename license file as "LICENSE"
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Mon, 30 May 2022 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.4.2-2noble) noble; urgency=high
+
+  * Fix build-farm test dependencies
+  * Contributors: Jose Luis Blanco Claraco, Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Wed, 18 May 2022 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.4.1-2noble) noble; urgency=high
+
+  * add missing test dependencies
+  * Contributors: Jose Luis Blanco Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Tue, 17 May 2022 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.4.0-2noble) noble; urgency=high
+
+  * Linter fixes
+  * Unify ROS1 / ROS2 builds in one branch
+  * Add License file
+  * Contributors: Jose Luis Blanco Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Fri, 13 May 2022 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.2.0-2noble) noble; urgency=high
+
+  * Add generic observation msg
+  * Merge pull request #1 <https://github.com/mrpt-ros-pkg/mrpt_msgs/issues/1> from tuw-robotics/master
+    Add range-bearing object observations
+  * Update URLs to https
+  * Contributors: Felix König, Jose Luis Blanco Claraco, Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sat, 05 Mar 2022 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.23-2noble) noble; urgency=high
+
+  * catkin_lint clean
+  * ROS build farm badges
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Fri, 08 Jun 2018 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.22-2noble) noble; urgency=high
+
+  * Release an an independent upstream repository, outside of "mrpt_navigation".
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Fri, 18 May 2018 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.21-2noble) noble; urgency=high
+
+  * Upgrade version 0.1.20 (#99 <https://github.com/mrpt-ros-pkg/mrpt_navigation/issues/99>)
+  * Merge branch 'master' into master
+  * Merge branch 'master' into compat-mrpt-1.5
+  * Adapted CMakeLists to new mrpt
+  * Merge pull request #72 <https://github.com/mrpt-ros-pkg/mrpt_navigation/issues/72> from bergercookie/devel
+    Add more conversion methods for CNetworkOfPoses classes
+  * update the definition of topic_namespace
+  * Work towards mr-slam
+  * Implement converion method for CNetworkOfPoses2DInf_NA specialization class
+  * Add more msgs for use in mrpt_graphslam_2d
+  * Contributors: Borys Tymchenko, Hunter Laux, Jose Luis Blanco-Claraco, Nikos Koukis
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Fri, 27 Apr 2018 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.20-2noble) noble; urgency=high
+
+  * Merge branch 'master' into master
+  * Merge branch 'master' into compat-mrpt-1.5
+  * Adapted CMakeLists to new mrpt
+  * Merge pull request #72 <https://github.com/mrpt-ros-pkg/mrpt_navigation/issues/72> from bergercookie/devel
+    Add more conversion methods for CNetworkOfPoses classes
+  * update the definition of topic_namespace
+  * Work towards mr-slam
+  * Implement converion method for CNetworkOfPoses2DInf_NA specialization class
+  * Add more msgs for use in mrpt_graphslam_2d
+  * Contributors: Borys Tymchenko, Jose Luis Blanco-Claraco, Nikos Koukis
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Thu, 26 Apr 2018 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.18-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sun, 22 Jan 2017 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.17-2noble) noble; urgency=high
+
+  * make catkin_lint clean
+  * mrpt_bridge: Add conversion methods for Information-related Pose classes
+  * Add graphslam-related messages, service
+  * Add new GraphSlamStats msg.
+    Message used primarily in the mrpt_graphslam_2d ROS application
+  * Remove all errors generated by catkin_lint and cleanup unused templates from CMakeLists.txt files
+  * Contributors: Jorge Santos, Jose Luis Blanco, Nikos Koukis
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sun, 22 Jan 2017 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.16-2noble) noble; urgency=high
+
+  * Remove unecessary Pose2DStamped msg
+  * Contributors: Nikos Koukis
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Tue, 13 Dec 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.15-2noble) noble; urgency=high
+
+  * Add Pose2DStamped ROS message
+  * Contributors: Nikos Koukis
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sun, 06 Nov 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.14-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Mon, 12 Sep 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.13-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sat, 03 Sep 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.12-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sat, 03 Sep 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.11-2noble) noble; urgency=high
+
+  * Add landmark to bridge.
+  * Contributors: Logrus
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sun, 21 Aug 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.10-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Fri, 05 Aug 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.9-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Fri, 05 Aug 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.8-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Wed, 29 Jun 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.7-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Mon, 20 Jun 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.6-2noble) noble; urgency=high
+
+  * New range-only msgs
+  * Contributors: Raphael Zack
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sun, 20 Mar 2016 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.5-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Wed, 29 Apr 2015 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.4-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Sat, 27 Dec 2014 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.3-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Thu, 18 Dec 2014 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.2-2noble) noble; urgency=high
+
+
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Thu, 18 Dec 2014 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.1-2noble) noble; urgency=high
+
+  * First public binary release.
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Wed, 17 Dec 2014 00:00:00 -0000
+
+ros-rolling-mrpt-msgs (0.1.0-2noble) noble; urgency=high
+
+  * consistent version numbers
+  * Update all wiki URLs
+  * metapkg mrpt_common -> mrpt_navigation
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Wed, 17 Dec 2014 00:00:00 -0000
+
+
