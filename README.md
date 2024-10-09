@@ -1,3 +1,26 @@
+## mrpt_msgs (iron) - 0.5.0-1
+
+The packages in the `mrpt_msgs` repository were released into the `iron` distro by running `/home/jlblanco/code/bloom-venv/bin/bloom-release -y -r iron mrpt_msgs` on `Wed, 09 Oct 2024 05:43:25 -0000`
+
+The `mrpt_msgs` package was released.
+
+Version of package(s) in repository `mrpt_msgs`:
+
+- upstream repository: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
+- release repository: https://github.com/ros2-gbp/mrpt_msgs-release.git
+- rosdistro version: `0.4.7-1`
+- old version: `0.4.7-1`
+- new version: `0.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## mrpt_msgs (humble) - 0.5.0-1
 
 The packages in the `mrpt_msgs` repository were released into the `humble` distro by running `/home/jlblanco/code/bloom-venv/bin/bloom-release -y -r humble mrpt_msgs` on `Wed, 09 Oct 2024 05:41:37 -0000`
