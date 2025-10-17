@@ -1,3 +1,26 @@
+## mrpt_msgs (jazzy) - 0.6.0-1
+
+The packages in the `mrpt_msgs` repository were released into the `jazzy` distro by running `/home/jlblanco/.local/bin/bloom-release -y -r jazzy mrpt_msgs` on `Fri, 17 Oct 2025 08:48:50 -0000`
+
+The `mrpt_msgs` package was released.
+
+Version of package(s) in repository `mrpt_msgs`:
+
+- upstream repository: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
+- release repository: https://github.com/ros2-gbp/mrpt_msgs-release.git
+- rosdistro version: `0.5.0-1`
+- old version: `0.5.0-1`
+- new version: `0.6.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## mrpt_msgs (kilted) - 0.6.0-1
 
 The packages in the `mrpt_msgs` repository were released into the `kilted` distro by running `/home/jlblanco/.local/bin/bloom-release -y -r kilted mrpt_msgs` on `Fri, 17 Oct 2025 08:47:21 -0000`
