@@ -1,0 +1,12 @@
+Source: ros-lyrical-mrpt-msgs
+Section: misc
+Priority: optional
+Maintainer: Jose-Luis Blanco-Claraco <jlblanco@ual.es>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cppcheck <!nocheck>, ros-lyrical-ament-cpplint <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-cmake <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-ros-environment, ros-lyrical-rosidl-default-generators, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://wiki.ros.org/mrpt_msgs
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-mrpt-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Description: ROS messages for MRPT classes and objects
